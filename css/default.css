@@ -1,4 +1,64 @@
-#container {
+body {
+	background: #000 url('../img/dvsup2.png') repeat;
+	color: #FFF;
+	font: 12px 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+	color: #FCCF65;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+a:hover {
+	color: #FFE5C6;
+	border-bottom: 1px solid;
+}
+
+h1 {
+	font-family: "Century Gothic", "Helvetica", "Arial", sans-serif;
+}
+
+#supernav {
+	background: #000 url('../img/supernav.png') repeat;
+	height: 10px;
+}
+
+#container, .wrapper {
 	margin: 0 auto;
-	width: 1200px;
+	width: 960px;
+}
+
+#footer {
+	background: #82745D;
+	height: 546px;
+	height: 417px;
+	border-top: 1px solid #C2AE8B;
+}
+
+#subnav {
+	color: #BBB;
+	background: #726652;
+	height: 42px;
+	line-height: 42px;
+}
+
+.color1 {
+	color: #FF765E;
+}
+
+.color2 {
+	color: #C2AE8B;
+}
+
+.color3 {
+	color: #FCCF65;
+}
+
+.color4 {
+	color: #FFE5C6;
+}
+
+.color5 {
+	color: #B7BDC4;
 }
